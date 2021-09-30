@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
+.fa, .fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 600;
+  line-height: normal;
+}
+
+#notice {
+  color: green;
+}
+
+#error_explanation {
+  color: red;
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
